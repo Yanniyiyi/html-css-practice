@@ -1,0 +1,60 @@
+/* Reset */
+html,body{
+	height:100%;
+	margin:0;
+	padding:0;
+}
+
+h1{
+	font-size:3rem;
+	margin:1rem;
+}
+
+.hero-container{
+	position: fixed;
+	background-image:url("../images/bg.jpg");
+	height:100%;
+	width: 100%;
+	background-size:cover;
+	display: flex;
+	align-items: center
+}
+
+.hero-content{
+	color: #fff;
+	text-align: center;
+	margin: 0 auto;
+	width:80%;
+}
+
+.btn{
+	font-size: 1.5rem;
+	padding: 1rem 1.3rem;
+	display: inline-block;
+	border:5px solid #ffffff;
+	color:#ffffff;
+	background: transparent;
+	text-decoration: none;
+	transition: all 0.3s;
+}
+
+.btn:hover{
+	background-color: rgba(255,255,255,0.2);
+}
+
+.see-you{
+	display: flex;
+	align-items: center;
+	text-align: center;
+	position:absolute;
+	top:100%;
+	height: 100%;
+	width: 100%;
+	background-image:url("../images/bg.jpg");
+}
+
+.see-you h1{
+	color:#fff;
+	margin:0 auto;
+	width: 80%;
+}
