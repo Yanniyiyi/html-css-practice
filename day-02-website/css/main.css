@@ -1,0 +1,160 @@
+
+html,body{
+	margin:0;
+	padding:0;
+	font-size: 100%;
+	height: 100%;
+}
+
+.header{
+	position: fixed;
+	width:100%;
+	top:0;
+	z-index: 1;
+}
+
+.nav{
+	display: flex;
+	justify-content: center;
+	background-color:RGBA(49, 36, 80, 1.00);
+}
+
+.nav-list{
+	list-style-type: none; 
+}
+
+.nav-list li{
+	float: left;
+}
+
+.nav-list a{
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	font-weight: bold;
+	font-size: 0.8em;
+	color:RGBA(121, 112, 141, 1.00);
+	display: block;
+	padding-left:1em;
+	padding-right: 1em;
+}
+
+.wrapper{
+	height: calc(100% - 2.9em);
+	height: -webkit-calc(100% - 2.9em);
+	margin-top:2.9em;
+}
+
+.hero{
+	position:relative;
+	display: flex;
+	align-items: center;
+	height: 100%;
+	background:RGBA(94, 66, 166, 1.00);
+}
+
+.hero-content{
+	position:absolute;
+	left:3em;
+}
+
+h1{
+	font-size:2.75em;
+	color: #ffffff;
+    font-weight: bold;
+    line-height: 1.5;
+    margin: 0 0 0.5em 0;
+}
+
+h2{
+	font-size:2.5em;
+	color: #ffffff;
+    font-weight: bold;
+    line-height: 1.5;
+    margin: 0 0 0.5em 0;
+}
+
+p{
+	font-size: 1.25em;
+	color:rgba(255, 255, 255, 0.55);
+	line-height: 1.5;
+}
+
+.btn{
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	-ms-appearance: none;
+	appearance: none;
+	-moz-transition: border-color 0.2s ease;
+	-webkit-transition: border-color 0.2s ease;
+	-ms-transition: border-color 0.2s ease;
+	transition: border-color 0.2s ease;
+	background-color: transparent;
+	border: solid 1px !important;
+	border-color: rgba(255, 255, 255, 0.15) !important;
+	border-radius: 3em;
+	color: #ffffff !important;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 0.6em;
+	font-weight: bold;
+	height: calc(4.75em + 2px);
+	letter-spacing: 0.25em;
+	line-height: 4.75em;
+	outline: 0;
+	padding: 0 3.75em;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	white-space: nowrap;
+}
+
+.btn:hover{
+	border-color: #ffffff !important;
+}
+
+.portfolio-container{
+	display: flex;
+}
+
+.img img{
+ 	height: 100%;
+}
+.portfolio-container:nth-child(1) .desc{
+	background-color: RGBA(80, 82, 181, 1.00);
+}
+.portfolio-container:nth-child(2) .desc{
+	background-color: RGBA(76, 78, 172, 1.00);
+}
+.portfolio-container:nth-child(3) .desc{
+	background-color: RGBA(72, 74, 163, 1.00);
+}
+
+
+.portfolio-container .desc{
+	position: relative;
+	width: 100%;
+	background-color: RGBA(80, 82, 181, 1.00);
+}
+
+.content{
+	position: absolute;
+	top:50%;
+	transform: translateY(-50%);
+	left:3em;
+}
+
+.what-we-do{
+	padding: 5em;
+	background-color: RGBA(183, 78, 145, 1.00);
+}
+
+.service-container{
+	display: flex;
+}
+
+.service{
+	width:50%;
+	flex: 1;
+}
